@@ -1,0 +1,68 @@
+.footer
+  background-color: #19283f
+  &-block
+    display: flex
+    justify-content: space-between
+    padding-top: 60px
+    padding-bottom: 60px
+  &__logo
+    margin-bottom: 13px  
+  &__text
+    color: $text-color-gray
+    font-size: 13px
+    line-height: 30px
+    &_color
+      &_lightblue
+        color: #00c7c0
+      &_yellow  
+        color: #ffc501
+    &_padding
+      padding-bottom: 75px
+  &-created    
+    max-width: 350px
+  &__title
+    color: #f0f8fb
+    line-height: 30px
+  &__nav    
+    display: flex
+    flex-direction: column    
+  &__link
+    text-decoration: none
+    color: $text-color-gray
+    &:hover
+      color: #00c7c0 
+  &-about
+    min-width: 125px     
+  &-contact
+    &__text
+      max-width: 310px
+    &__button
+      display: block
+      color: #ffffff
+      width: 100%
+      text-align: center
+      font-size: 13px
+      margin: 25px 0
+  &-social
+    display: flex
+    justify-content: space-between
+    max-width: 174px
+    &__img        
+      position: absolute   
+      left: 50%               
+      top: 50%
+      transform: translate(-50%, -50%)
+      &-block
+        position: relative
+        border-radius: 50%   
+        height: 36px
+        width: 36px       
+        &_color
+          &_facebook
+            background-color: #347cd2
+          &_twitter  
+            background-color: #1ec3fe
+          &_google
+            background-color: #ff4032
+          &_dribble
+            background-color: #ff3298
